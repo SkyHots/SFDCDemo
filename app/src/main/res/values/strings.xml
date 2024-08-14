@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SFDC Demo</string>
+    <string name="title">Haptic SFDC Test Tool</string>
+    <string name="configuration">DEMO CONFIGURATION</string>
+    <string name="f0_detection">F0 DETECTION</string>
+    <string name="f0_autotrack">F0 AUTOTRACK</string>
+    <string name="hz">Hz</string>
+    <string name="calibration_fc">Calibration Fc</string>
+    <string name="calibration_f0">Calibration F0</string>
+    <string name="sfdc">SFDC</string>
+    <string name="microElectronics">芯空微电子</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="apply_configuration">Apply Configuration</string>
+    <string name="sfdc_freq_drift_simulation">SFDC freq drift simulation</string>
+    <string name="transient_waveform">Transient waveform</string>
+    <string name="sweep_freq_window">Sweep freq window +/-</string>
+    <string name="sweep_freq_step">Sweep freq step</string>
+    <string name="lra_type">LRA type</string>
+    <string name="choose_file">choose file</string>
+
+    <string-array name="lraTypeItems">
+        <item>ELA0809</item>
+        <item>CSA0916</item>
+        <item>SLA0620</item>
+        <item>ELA0815</item>
+        <item>ELA9595</item>
+        <item>SLA1010</item>
+        <item>ESA1016</item>
+        <item>ELA080940</item>
+    </string-array>
+    <string name="title_activity_test">Test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sfdc_output"><![CDATA[SFDC OUTPUT （文本 & 图形显示）]]></string>
+    <string name="fc_bemf_offset"><![CDATA[Fc & BEMF offset]]></string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewPackage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/LessBtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/less_btn_click"
+        android:text="@string/less_btn"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_input"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/edit_bg"
+        android:focusable="false"
+        android:gravity="center"
+        android:inputType="numberDecimal|number"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plus_btn_click"
+        android:text="@string/plus_btn"
+        android:textColor="@color/black" />
+
+</LinearLayout>

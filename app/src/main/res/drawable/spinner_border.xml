@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#00000000" />
+            <stroke
+                android:width="1px"
+                android:color="@color/gray_text" />
+
+            <corners android:radius="4dp" />
+
+            <padding
+                android:bottom="5dp"
+                android:left="18dp"
+                android:right="18dp"
+                android:top="5dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="5dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/spinner_dropdown_icon"
+        android:gravity="end"
+        android:start="10dp" />
+</layer-list>
